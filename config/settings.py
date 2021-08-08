@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
-import os
+import os, pandas
 from django.contrib.messages import constants as messages_constants
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
