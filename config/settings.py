@@ -101,17 +101,17 @@ if DEBUG is False:
             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         }
     }
-else:
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.postgresql',
-            'HOST': os.environ.get("HOST"),
-            'NAME': os.environ.get("NAME"),
-            'USER': os.environ.get("USER"),
-            'PASSWORD': os.environ.get("PASSWORD"),
-            "PORT": "5432",
-        }
-    }
+# else:
+#     DATABASES = {
+#         'default': {
+#             'ENGINE': 'django.db.backends.postgresql',
+#             'HOST': os.environ.get("HOST"),
+#             'NAME': os.environ.get("NAME"),
+#             'USER': os.environ.get("USER"),
+#             'PASSWORD': os.environ.get("PASSWORD"),
+#             "PORT": "5432",
+#         }
+#     }
 
 
 # Password validation
