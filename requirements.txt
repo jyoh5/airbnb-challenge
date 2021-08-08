@@ -1,5 +1,5 @@
 pandas
-psycopg2
+psycopg2-binary
 appdirs==1.4.4
 awsebcli==3.20.0
 black
